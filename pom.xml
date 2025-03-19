@@ -544,6 +544,16 @@
             </dependencies>
         </profile>
    </profiles>
+<distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://ip172-18-0-78-cvd9of2im2rg00ejg1pg-8081.direct.labs.play-with-docker.com/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://ip172-18-0-78-cvd9of2im2rg00ejg1pg-8081.direct.labs.play-with-docker.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <repositories>
         <repository>
